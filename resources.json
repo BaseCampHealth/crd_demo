@@ -1,0 +1,183 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "resources",
+    "withoutRowId": true,
+    "ddl": "CREATE TABLE resources (Name STRING, Status BOOLEAN, Type STRING, \"Active From\" DATE, \"Active To\" DATE, \"Operation Hours Start\" DATETIME, \"Operation Hours End\" DATETIME, \"Street Address\" STRING, City STRING, State STRING, Zip INTEGER, Contact STRING, Website STRING, Lat DECIMAL, Lon DECIMAL, Rating INTEGER);",
+    "columns": [
+        {
+            "name": "Name",
+            "type": "STRING"
+        },
+        {
+            "name": "Status",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "Type",
+            "type": "STRING"
+        },
+        {
+            "name": "Active From",
+            "type": "DATE"
+        },
+        {
+            "name": "Active To",
+            "type": "DATE"
+        },
+        {
+            "name": "Operation Hours Start",
+            "type": "DATETIME"
+        },
+        {
+            "name": "Operation Hours End",
+            "type": "DATETIME"
+        },
+        {
+            "name": "Street Address",
+            "type": "STRING"
+        },
+        {
+            "name": "City",
+            "type": "STRING"
+        },
+        {
+            "name": "State",
+            "type": "STRING"
+        },
+        {
+            "name": "Zip",
+            "type": "INTEGER"
+        },
+        {
+            "name": "Contact",
+            "type": "STRING"
+        },
+        {
+            "name": "Website",
+            "type": "STRING"
+        },
+        {
+            "name": "Lat",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "Lon",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "Rating",
+            "type": "INTEGER"
+        }
+    ],
+    "rows": [
+        [
+            "Chattanooga Area Food Bank",
+            "True",
+            "Food Pantry",
+            "01 Aug 2019",
+            "present",
+            "9:00 AM",
+            "3:00 PM",
+            "2009 Curtain Pole Rod",
+            "Chattanooga",
+            "TN",
+            37406,
+            "Sophie Moore, smoore@chattfoodbank.org, 423-622-1800",
+            "www.chattfoodbank.org",
+            -85.274167,
+            35.063506,
+            5
+        ],
+        [
+            "Chattanooga Rescue Mission",
+            "True",
+            "Homeless Shelter",
+            "07 October 1999",
+            "present",
+            "9:00 AM",
+            "4:00 PM",
+            "1512 S Holtzclaw Ave",
+            "Chattanooga",
+            "TN",
+            37404,
+            "Charles Harrison, charrison@crmshelter.org",
+            "chattresmission.org",
+            -85.288049,
+            35.027963,
+            3
+        ],
+        [
+            "Community Kitchen",
+            "True",
+            "Homeless Shelter",
+            "2005",
+            "present",
+            "7:00 AM",
+            "5:00 PM",
+            "727 E 11th St",
+            "Chattanooga",
+            "TN",
+            37403,
+            "Jacob David Greenshaw, jd@ckitchenchatt.com, 423-759-1935",
+            "ckitchenchatt.com",
+            -85.299928,
+            35.040614,
+            1
+        ],
+        [
+            "United Way's Center For Nonprofits",
+            "True",
+            "Homeless Shelter",
+            "04 February 2012",
+            "present",
+            "8:30 AM",
+            "5:00 PM",
+            "630 Market Street",
+            "Chattanooga",
+            "TN",
+            37402,
+            "Joshua Trikkef, trikk@csinc.com, 423 858-4839",
+            "unitedway.com/chattanoogatn/",
+            -85.309432,
+            35.049241,
+            3
+        ],
+        [
+            "Salvation Army",
+            "True",
+            "Food Pantry",
+            "05, October, 1983",
+            "present",
+            "7:00 AM",
+            "4:00 PM",
+            "800 McCallie Ave",
+            "Chattanooga",
+            "TN",
+            37403,
+            "Abby Nyhson, an@chattsarmy, 423 734-5298",
+            "salvationarmy.org",
+            -85.295928,
+            35.043078,
+            2.5
+        ],
+        [
+            "Catholic Charities",
+            "True",
+            "Food Pantry",
+            "01 January 2017",
+            "present",
+            "8:30 AM",
+            "4:30 PM",
+            "6100, 5720 Uptain Rd #4200",
+            "Chattanooga",
+            "TN",
+            37411,
+            "Sammie Laughary, slaughy@outlook.com, 489 839-3781",
+            "stjohn.com/outreach/cc",
+            -85.209967,
+            35.00981,
+            3
+        ]
+    ]
+}
